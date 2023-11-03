@@ -437,6 +437,14 @@ public class SceneTransitionManager : MonoBehaviour
     }
 
     /// <summary>
+    /// This function is called by the metadata script to remove it
+    /// </summary>
+    public static void UnregisterScene(string name)
+    {
+        instance.registeredScenes.Remove(name);
+    }
+
+    /// <summary>
     /// This function is called by the scene loader when the player enters its trigger
     /// </summary>
     public static void EnableScene(SceneLoader sceneLoader)
