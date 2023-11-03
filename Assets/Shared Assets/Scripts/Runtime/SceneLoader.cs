@@ -1,9 +1,6 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
-using UnityEngine.ResourceManagement.ResourceProviders;
 
 /// <summary>
 /// Will Load scene when trigger is entered (could be merged with scene trigger)
@@ -12,7 +9,6 @@ public class SceneLoader : MonoBehaviour
 {
     //What scene to load
     public string SceneName;
-    public AssetReference Scene;
     
     [SerializeField]
     private Volume m_CurrentVolume;
@@ -30,7 +26,6 @@ public class SceneLoader : MonoBehaviour
 
     private GameObject m_Root;
     private int m_LoadedIndex;
-    private AsyncOperationHandle<SceneInstance> loadHandle;
     
     public void Start()
     {
@@ -63,8 +58,6 @@ public class SceneLoader : MonoBehaviour
     public void DisableScene()
     {
         SceneTransitionManager.DisableScene(this);
-        // SceneTransitionManager.UnregisterScene(SceneName);
-        // Addressables.UnloadSceneAsync(loadHandle);
     }
 
     private void OnTriggerExit(Collider other)
@@ -76,7 +69,7 @@ public class SceneLoader : MonoBehaviour
     {
         if (!SceneTransitionManager.IsLoaded(SceneName))
         {
-            loadHandle = Addressables.LoadSceneAsync(Scene, LoadSceneMode.Additive);
+            SceneManager.LoadSceneAsync(SceneName, LoadSceneMode.Additive);
         }
     }
 
