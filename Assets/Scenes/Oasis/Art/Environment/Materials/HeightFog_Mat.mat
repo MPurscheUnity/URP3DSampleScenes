@@ -51,3 +51,4 @@ Material:
     - _Height_Range: {r: 0, g: 20, b: 0, a: 0}
     - _Tint: {r: 1, g: 0.5215277, b: 0.3254717, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

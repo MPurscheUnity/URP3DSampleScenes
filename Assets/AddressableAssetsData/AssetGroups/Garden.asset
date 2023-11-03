@@ -1,0 +1,2921 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Garden
+  m_EditorClassIdentifier: 
+  m_GroupName: Garden
+  m_Data:
+    m_SerializedData: []
+  m_GUID: eae6252aa6cc7684b8852ba892dcc72c
+  m_SerializeEntries:
+  - m_GUID: 81e71078978223e4c8ffbf973484c9c5
+    m_Address: Assets/Scenes/Garden/GardenScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4243a58cd519a2449a68b6385621f94
+    m_Address: Assets/Scenes/Garden/Animation/GardenFlythrough.playable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1048a78e3e801c94aaff914749e3c96e
+    m_Address: Assets/Scenes/Garden/Animation/GardenScreenshots_Timeline.playable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ee47f007112e524d8f74b2029339d76
+    m_Address: Assets/Scenes/Garden/Animation/GardenScreenshots_Timeline_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aca3ef88dea40924d8e00f611d8f47f7
+    m_Address: Assets/Scenes/Garden/Animation/GardenVideo_Timeline.playable
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 563c66caeb03ab84abd2ba4438150d76
+    m_Address: Assets/Scenes/Garden/Animation/GardenVideo_Timeline_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5131871fce49db2448a3e3c9f0d5dc7a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/BambooStructure_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bb1a4508970b9f46979a78e9dbef5d1
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/DoorGlass_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25fdb195d17c226408fc981b30984b94
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/Door_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93cccc3be5a5cdb438d13374c82b2af5
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/GardenBridge.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3aefa85c9c661c34d9f36714ce0057a2
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/Paper_01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 898935bd1b6637641a391eff619ecab3
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/Paper_02.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 797c2d8035653644bb8099231152e18d
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/PlasterWall_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff644b58ea645c947be44a071b21eaf7
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/RoofOrnament_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3bea24992ea32e48a661cd51ef54462
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/Roof_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3d91d730274c0a4f9c38e04f2642846
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/Roof_Tiles_01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a37b5101102b57947a3d0deadeee42ee
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/StoneSlab_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88bccdfcbe62ad8438e95911794d63ba
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/Tatami_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a464453127bce447937ae8efed30e21
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/TrimRoof_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ae451ca8391641499f5323d11a8bd4e
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/TrimWooden_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95ea9c505c9d49041a000dd8eaa5473e
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/TrimWooden_02_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80453afecc54696478750ba2202329cb
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/WashiLight_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 737727e1be235354d965d44faf576588
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/Window_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6eaca43113c33b54ebc04249a1642489
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Materials/WoodPlank_01_MAT.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed3783a3eae80854ea0fe857aea32891
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/BambooStructure_Frame_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7965277a90b409343a0c462fc6aba68b
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/BambooStructure_Top_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 674946fb4a0e2d240b1be9d10330c993
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/BambooTube_01._Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d2e380d64fae0b48910c889780edfe4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/BeamWooden_10X120_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5a350949a4533a4ab1da1f0289e45b8
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/BeamWooden_13x16x215_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4e9d833e012dd148a2bcfed2c7e6b1f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/BeamWooden_13x16x380_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f30cee0901aa25b4dba8d202682c8023
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/BeamWooden_13x16x380_03_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcf320292eaa90647a4280cc2c1181f4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/BeamWooden_20x100_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a312b8d490171f439646af0dc2c8597
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/BeamWooden_20x330_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c64a984bd29b5449827cdd2d53e11b2
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Ceiling_300x600_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fd01adfa94150f4abf967b7abce3a2a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Ceiling_600x600_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc4f08f4deda5c14fbc4809ed2d1c788
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Cupboard_200x50x100_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38a48e2aa8ebd164ab5ab0ae1510991f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Cupboard_200x50x100_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd9c6073027b40842be687578004b8d2
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Cupboard_300x50x100_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a93d6831500e394ab4325111b481888
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/DoorFusuma_100x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a89031a6c48d91d45ad840ecd3c536fc
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/DoorGlass_100x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a3b4474612d22b4fba1fadae1745a96
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/DoorGlass_100x200_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d04803c80645384bb78a3806215ee2a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Door_100x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28e1f0f95b2c79947a70909d27fa8b13
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Door_100x200_01_WashiLight_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9621f4d6c561d04ea0f5de042450a14
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Door_SlidingRails_200x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3a1f1820cd3ffd428a7c8fe691d3e72
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Door_SlidingRails_300x215_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccb2f8f89415f03448d87c3127ef09ee
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Door_SlidingRails_400x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85d624bb27a18694d9c812bbba915f42
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Fence_200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 579550f9ede6b234ab5f7bf7024ef2f3
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Fence_400_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27c51bca41bfcc2409ed16bb4033b677
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Fence_400_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d012c8ad5357f3945b2130f4bb6ec56e
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/GardenBridge_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96533c39f1cae3241bf98fb0d97e03b6
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/GateDoor_400_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 814efcc895c5e8c4099380732f3eeac2
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Gate_400_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d876a89269f85734882401c8a7840e2f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Gate_400_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07bc6e16000c0904486d3507762692ef
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Nakabashira_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a5b96611030e4b489b596475af0d2df
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Roof_Edge_100x100_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a0df281cdab9414d94a8493502d087f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Roof_Edge_100x50x50_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c94ec6820b861bf4c8f252f2c13b9858
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Roof_Edge_200x50x50_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0d5d2d2b882d174c984f118c42cd0a5
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Roof_Ornament_200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0470693cd0356c84d9a9a4aba8df4634
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Roof_Ornament_400_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2544dc3c8b50f804a9c8886acf6f4dc9
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Roof_Ornament_400_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ec184b3fcc944e4982f5f427d4d8e85
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Roof_Ornament_400_03_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed1b1a361ed889a4fad5a60c60295bf4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Roof_Ornament_c90i_400_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae54eebed0aeb46449a39940507ded43
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Roof_Ornament_c90o_400_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d1e7cedc92d7d54d9cdd58a460656e2
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/roof_tile_200x800_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8a90ffb429e5f1418c16c5f245b9fdc
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/roof_tile_400x400_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e9f17f8246c075409076fdbb002ab9a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/roof_tile_400x800_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da529f09c2cb41b42bc2e96de9f146e6
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/roof_tile_800x800_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f181b4b310be5644fbcf2d249a648710
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/roof_tile_c90i_800x800_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffa9fbb502faf384d810653ef31f2d2d
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/roof_tile_c90o_800x800_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de869ede9421eaa418aa3142e3131049
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Shelve_200x50_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49ce13b26beefe3488e28fda52859d74
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/StoneSlab_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 578e0aef2634f504786232226b252de4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/StoneStair_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e68c4c057ff58934294b5f2915257ac3
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/StoneStep_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc002fbc7b422a445bd3e383ca16f6c9
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Tatami_200x100_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e4c5b8e69116ee4ea5a82af369f63a7
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Tatami_200x100_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e6fda82f9473e94d99dbffc3f027e65
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Tobukuro_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2b9f30bcb8e2e54bba7fcc9d77376e3
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Tokonoma_Step_200x100_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6084c425536b814caae3867110f9cd3
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wall_100x170_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 046217e5a8b02c548b757c4dbbc26c21
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wall_100x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ca506e692583d94a861dbcad4c3e60a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wall_200x170_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e03d26434b563148bbc852ea44bf171
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wall_200x170_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d68b5c1f2fce07e419101482e47b2c23
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wall_200x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abe6aa10c84f5ed4ea43a36b2c163d2c
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wall_200x55_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a286cf116f9ca8419f55202c541af2a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wall_200x55_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 479014f901b921d4f96b02e8fc433235
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wall_300x170_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21419cd66a162424abbab27fb3f28fb4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wall_300x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d7ac3d2fed55c240876034cbdd4c30d
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wall_Window_200x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db2f2d39cdcea504c8ef9015e80c5783
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_100x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59b5be086fdeb6545961958672ccb06d
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_100x200_01_WashiLight_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2063b5c3e267a24b9bf5814a7936c16
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_96x50_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 240e204a35f7bf14980855c069618e6d
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_96x50_01_WashiLight_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 214f60b10b38ba645a58eee58fe319a4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_Upper_200x100_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29a4ba303fa97e34b8f622449a99a3d2
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_Upper_200x170_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c0f28b585eb1e84ea2bd9fd2ee86214
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_Upper_200x170_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f04fcce22a967484894bce3cdd139070
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_Upper_300x170_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf2543679ce66134f80f5869a8cd6d6b
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_Upper_300x170_03_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b13a275860bd29545a0cd9cf4ea84b21
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_Upper_400x100_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 655f11540eed3834c8f2c938ecef65d7
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_Upper_400x100_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1eeab30e69a7233458d53700e434bd22
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_Upper_400x170_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80d7d3803a18117419a3b910e2469861
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Window_Upper_400x170_03_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bab60f61207d424ab288dbb746d5010
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/WoodenPlatform_InteriorAngle_200x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c84ef2178b7aa0940b111e58ad4508e8
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/WoodenSupport_15x80_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6b6bee05de3a314b89aa7452cdd24c7
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wooden_Fence_200x80_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0c1eaad53c51924ca3d4bb4b2b9c090
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wooden_Fence_400x80_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97be9dfd8a6397346b59c6a6de2c8da1
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wooden_Fence_ExternalAngle_200x200_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc5df43ef082fe74ba1735ec7b78f7d6
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wooden_Platform_200x100_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 208f57e6dd8202c449f3e9ef20c4758c
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wooden_Platform_200x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73f08e9fcdb2ff849816fea1682b9737
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wooden_Platform_400x100_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e21ca01cd1c48f48a9e064a4962614d
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wooden_Platform_400x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7210b37fe595294b915a0b95d9fb6cf
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wooden_Platform_ExternalAngle_100x200_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ebb0db46288f6940a0fbcf08d8a06b3
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Meshes/Wooden_Platform_ExternalAngle_400x400_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc991827cf50b8f4094438cad24079cc
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/BambooStructure_Frame_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef21bcd5cfd5866439483a134baa4159
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/BambooStructure_Top_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b12f1be31c08374480ef7062c030dc8
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/BambooTube_01._Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94832ae50096eb146b35190600473f6a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/BeamWooden_10X120_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d628f823bc8f5e44aae234c564f15010
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/BeamWooden_13x16x215_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 306aa234f6abbe841a17615818f8b30f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/BeamWooden_13x16x380_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dad38c4e4fa75f46b02a786e7a15266
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/BeamWooden_13x16x380_03_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa21c78222ed22140afacbdac3c0f43a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/BeamWooden_20x100_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71418bea553194f4d8c3ec9179bbc437
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/BeamWooden_20x330_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1502b4ebd708d264fac30e3179d74875
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Ceiling_300x600_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e5bd4b683494004d9336e90223661b5
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Ceiling_600x600_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4f2b32a231c7f442b3e65b9c07bacad
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Cupboard_200x50x100_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7d461e67642ec343b80a6451c4b9603
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Cupboard_200x50x100_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61685f6f9791ed44893d13a73778ec44
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Cupboard_300x50x100_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89d4c08db6b9096438cb6c7718d47f26
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/DoorFusuma_100x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68de883e65fe45547a661f63c3bcdc14
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/DoorFusuma_100x200_01_Prefab_Flipped.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09a10269a80510444b07fac37ffbc374
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/DoorGlass_100x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27e140a629ea9d94e8c14bd198718b56
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/DoorGlass_100x200_01_Prefab_Flipped.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd9e0ee4457fda4449cf43d2b827fbc6
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/DoorGlass_100x200_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 572d8ebb9b969794a8313bab2f18f169
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Door_100x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f40fa4cd3c350d84fae30db5923e2b1c
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Door_100x200_01_Prefab_Flipped.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 605b7325cae71aa43a80359a2a0635c9
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Door_SlidingRails_200x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f474470da1b8dfe489f7944d8fb4a735
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Door_SlidingRails_300x215_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 152c91511bb38db4ab7a3c4dce746976
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Door_SlidingRails_400x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62ae49b1fe11ff642a9e0252056d01cc
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Fence_200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3411893f7d7e025489ac75192602ac20
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Fence_400_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 534ec5e117c7c8344b08a035d09109c2
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Fence_400_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a02248f3bcd07ec498c4887cad97c5de
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/GateDoor_400_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22a72f84a61cf5247ae80e0555e748bf
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Gate_400_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27f7958bddd3aa84ea556d617c1e41bf
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Gate_400_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 931274b6e11055840999d94e807d8cd3
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Nakabashira_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a86d12501323d364d95939dc8e79d717
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Roof_Edge_100x100_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fa25007e89ec364fbd5193c25469524
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Roof_Edge_100x50x50_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 892e702d4a31cb743af1bc95da17a848
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Roof_Edge_200x50x50_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fcbaea770789fa4381ab1a3d9358b18
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Roof_Ornament_200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf0e075f6b1595244882135c917667aa
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Roof_Ornament_400_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d151169e9533c7d41b89ec1b50876b92
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Roof_Ornament_400_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac95bdc824006c2479e12234c651153b
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Roof_Ornament_400_03_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ad571efdfbfb5f4699ae252899e8779
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Roof_Ornament_c90i_400_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fbab7e8cd9d3694b98d0dd34069c1c8
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Roof_Ornament_c90o_400_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1285dedf89ab8494ead7a1382151eb2d
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/roof_tile_200x800_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2fed21a7f581684b97393a513c1ac1f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/roof_tile_400x400_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9fd1d81aa9817e44bbd5a765bcd4dfc
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/roof_tile_400x800_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb4a31171b11ee0449f765a2d56d65b7
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/roof_tile_800x800_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80f1f552628367c4e97be6a707da1e40
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/roof_tile_c90i_800x800_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2404d074df16f0498b0cca025fb2d74
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/roof_tile_c90o_800x800_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 780a62de3ddb278458131ab2ff46530f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/ScreenshotsTimeline.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b08e007088fb6334b8c80fe22cb6fe3e
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Shelve_200x50_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8906daac65e644941b137644e52d9d40
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/StoneSlab_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c01831735836d734799a2c0d418c7f2f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/StoneStair_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5edb7199e16a7af4c87d8f678535a5f0
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/StoneStep_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 367e76a943c52174c9bd9e8021513dea
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Tatami_200x100_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffa81299283cb784bae19fbd14c5329f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Tatami_200x100_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b4d167e6fa97ff4585a809df5be9908
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Tobukuro_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63789d92d2a79ee4ead39172f6fc43de
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Tokonoma_Step_200x100_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 103fca8aa1b47c445a9b40754125c1da
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wall_100x170_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14f4eefb0847e984f982945ab220d57a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wall_100x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4f829552ff027340afbaed5e87ba9d9
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wall_200x170_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfeaca699889b3449835256e8e648696
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wall_200x170_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10dc08df9d35af0438759cd8981887db
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wall_200x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 581949e036ebbdc4b9e5f05511f96bb8
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wall_200x55_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90e800895f574d44191771fcc00ecdae
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wall_200x55_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8105ed0c7380a6649a22735e13ecd1d3
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wall_300x170_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bd7c3ae3c8cabe40acf50d65917e2f4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wall_300x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24f0b92131c920447bf1cf19b991d460
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wall_Window_200x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1cb9d3f28f6cb941a51ae103cb44b90
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_100x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35b06cd608bc169459bef5e6216dd8bb
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_100x200_01_Prefab_Flipped.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3842f68affde3454ea9ec2e33b16dda0
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_96x50_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1efb4662930ad8945acd4aa660cd4cd4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_Upper_200x100_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3214a5a0ac938540bffca9ab0865b66
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_Upper_200x170_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 212cca2326ad18a4bb5dd09123fc8fcc
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_Upper_200x170_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e464eb6223236354d9f37e2f72d751ab
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_Upper_300x170_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eeea75a622301784db8598447e3af493
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_Upper_300x170_03_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de9d927f9f38ee7408c90caf557f2f01
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_Upper_400x100_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8db20a6ad9b3c0543a0e66268f7ce2e4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_Upper_400x100_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 635c8c3886e4ab34ab21ebb4b9e70f60
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_Upper_400x170_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ffddb2337795704db6bcc98fa7621ce
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Window_Upper_400x170_03_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee6168418a49aad4f8f722b97824e788
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/WoodenPlatform_InteriorAngle_200x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5efa173428163543b5a592ab1491dde
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/WoodenSupport_15x80_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 688ef3484f0e08947ab5522c2a90206d
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wooden_Fence_200x80_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00dfb7590a341a745a66fa2b3edba7d2
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wooden_Fence_400x80_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40038652a1de8fe4ea68f2ebb44b73af
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wooden_Fence_ExternalAngle_200x200_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c94dc021e35ea1447bc2c2334c7a9652
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wooden_Platform_200x100_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3560c343013a552469bf03c80b7b7a5f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wooden_Platform_200x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6627c5b1b345eb841921550ffb0d0c82
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wooden_Platform_400x100_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f47a21b336a8bf44bcc81aef9e5cd9c
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wooden_Platform_400x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71ef8af208d72314e86f2dac89d38c4a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wooden_Platform_ExternalAngle_100x200_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4d73107dc6b2bb4daf7fe56f5cbc9f2
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Prefabs/Wooden_Platform_ExternalAngle_400x400_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0518673df12dd1c4f9bb668f48402b67
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/BambooStructure_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14c21ab1203f290469974009c34f66d9
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/BambooStructure_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d825b70c77f04841963d59d167584b4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/BambooStructure_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20f771842cda9184bafad0bd09a79a70
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/DoorGlass_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 637eec651b6749642b38396f4b235367
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/DoorGlass_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79a19c16c1fb33b499cd26ba2552dedc
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Door_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41ad4afc11a5c784f89cd24520066892
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Door_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b14dee196382c443b3606a4f7b3a6ea
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Door_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d95d1037dd0d504d9af079f6380dacc
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/GardenBridge_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11f9d15bcdf4f474b995de033187b360
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/GardenBridge_T_MS.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a4faf15d21a9784ba46554d2e0ff96f
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/GardenBridge_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39ec4cacf0f31ec4ca845eb98a9dbf2a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/PlasterWall_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24cf86d4edf59c641bf78ba07982f2ef
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/PlasterWall_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bb48605993c5f44f89ad1377a900b46
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/RoofOrnament_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6c8a0aebf776b04e957565c43478721
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/RoofOrnament_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17de20c029da4c744ace0ffca0bc2b80
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/RoofOrnament_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe04aee87000adf4ea5911db0bbabacf
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Roof_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08b86e223483ed846b028d3a4c929d3c
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Roof_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a22ed6fa5016c34eb9a7ddcbb5baf56
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Roof_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e2ebdddcad2e0c4c8d50561048ac73e
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/StoneSlab_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1aed732eb01f5374b8f1921870be9a85
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/StoneSlab_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e102ee665ed71994995f5f5cc3581101
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/StoneSlab_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62a1c70c49ee48949804a1b9704d98f4
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Tatami_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f424fe2441e9bbb408f606da9d5ea74c
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Tatami_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cdf7154483eb934e8f18f84c31ae2a6
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Tatami_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d01537f8f58ab14f9a7bf26adb7b0f8
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/TrimRoof_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ac0c01999ac1314ba3524283f9eb4fb
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/TrimRoof_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdd70d7a88f4bf84fa343f1262eaf8a7
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/TrimRoof_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98e5210dcafceae429c554b27138766e
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/TrimWooden_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dd27bc69b0a0da4eacc0f8b62d70e1a
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/TrimWooden_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3bbf631d0733174885e87db91a55674
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/TrimWooden_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a2fe1a888f664944a50763e3fb65ab8
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/TrimWooden_02_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a612c52b087e278499fe8799e74591d7
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/TrimWooden_02_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e761c03608ec6104b8195269be642f1b
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/TrimWooden_02_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17a6ed65f8b0d7545b3e3e344f449afe
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Window_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dd448d516d11e84ea9ae3771d31db8b
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Window_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4acb71c2cda0ad418ab4f74c18389f8
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/Window_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77250dcafd76573459dcaab1e640cc08
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/WoodPlank_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7bdb35d18d16e646859c2e37f42aa76
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/WoodPlank_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1997d661452a5094997fcec07728ce5c
+    m_Address: Assets/Scenes/Garden/Art/Architecture/Textures/WoodPlank_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e52ab35208559aa46bc578d4bdaa0804
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/Coal_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db01bcc0b1b9ef94db3bb53eb7a0b99f
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/Cushions_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb528b503503a684ebaddb3d14db0586
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/DecorationSet_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c782bd9a28493f45be777958580d2c0
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/LanternSet_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 384704a5f23ecf84db3632ee97b3eca5
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/LanternStone_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e9529e00f287e441b524a097bc47b32
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/Lantern_BigCeiling_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25a69bc6ebe64d74581a031d03bbdd92
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/ParticleSpeck_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 214c16b32c4df524cb4ac938675d1e0b
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/PictureScroll_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58110dc5e207bb941820a977fec530f1
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/Plant_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3034bbc215b72494d89f65111f73b825
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/PotHook_01_MAT.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35c3d537834d2e24f85c07af79305d89
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/SmallTable_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61fb3d959d484dc4faa71383e6b55b84
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/TablewareSet_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be3b5ba8c5d679640a24ce586ce4003d
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/Table_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f20108c61c2dc5d4ca412e73d7a90b10
+    m_Address: Assets/Scenes/Garden/Art/Props/Materials/Zaisu_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e5b9587eef068f47819d0d4346f3520
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/CeilingTubeLight_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40a242b4acc46b142abe05e9ee884499
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Cushions_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 042c78b18f9a443438bc6fbd97e2b642
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/DecorationSet_Fan_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaa2d45771a5e314dbeb2f6f35bacdbd
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/DecorationSet_Plates_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db9ed8e9ada4f9e4a9b21a99d4c33767
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/DecorationSet_Vase_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1874198f8c2297b4599837642c5a06de
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/DecorationSet_Vase_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7375766c708b88a4aa21344d05a7a5af
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/DecorativeTeapot_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 413495df07a08d14685d86ba163cc361
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Firepot_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db2384228bbe0fc4b917b103fce0fd38
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/LanternStone_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccf3f068da6c8334c9b2e813cc438b41
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Lantern_BigCeiling_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12bb994bcbd9c6f41b22f852146aae21
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Lantern_MediumHanging_01_Mesh.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e00abcb44e7ba0c43933da5aa79e5827
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Lantern_Medium_01_Mesh.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cac77122aceb93846aa93e14646b5730
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Lantern_Paper_01_Mesh.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dac139afbb084f14bac3c5ebfdadd208
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/PictureScroll_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a05e6872ec6e8a4c8f8cde6527b68ec
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Plant_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 589ded2ffd2ab4b46a80a15db5814878
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Pothook_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d0f730ca82b0924eb47ac121978dd78
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/SmallTable_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 236d23d95e145f247b5a101b4f75eaf3
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Spotlight_01_Mesh.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c3589ae500c3bc459da98c84ca87a8f
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/TablewareSet_Bowl_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2db79605ab0ee5a4cb4d73ef8f7e0afa
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/TablewareSet_Bowl_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bf54da6b820a2945a98725350330e97
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/TablewareSet_Bowl_03_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 392b5d15c0c65b446b6147950867be1a
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/TablewareSet_Bowl_04_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b5ecc3f321ab5c499208cdc983daa25
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/TablewareSet_Chopstick_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9eed090a749010b42bcaf09f2077c762
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/TablewareSet_Placemat_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c37936e1c35178489a328172713ce96
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/TablewareSet_Plate_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 486c0303d58d39048a67f89141d56343
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Table_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01e9f1698ac81ab46a14cb78264bc19c
+    m_Address: Assets/Scenes/Garden/Art/Props/Meshes/Zaisu_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e773b6ab3cbdac41957572856008d9c
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/CeilingTubeLight_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae3fab5bb141028449fcf907447a5cd1
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Cushions_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a6cf3425e7f69849ba1dfc377254c02
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/DecorationSet_Fan_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2390ad7343780ce4db8264e01794ef17
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/DecorationSet_Plates_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6de4ee6ed6fa9240aca2e5fd8b1747e
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/DecorationSet_Vase_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6023db9952d9e146a09fa0498b303f1
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/DecorationSet_Vase_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb88a16eba0c98947be5692841a44651
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/DecorativeTeapot_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cb04f5f2608dea4a8d9d09cfa83cf5b
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Firepot_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3465f68f6d568d498c6301e743eae85
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/LanternStone_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d95e6d0cadfbf246b0da9fb906acb5e
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Lantern_BigCeiling_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 692af109e54d4dc4eb06562ab955fc23
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Lantern_MediumHanging_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c38aedbdc88dd645bb0b31cb43f2308
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Lantern_Medium_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa483e9fdd9e7ed45aec98d5a36d083a
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Lantern_Paper_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27bb3f202cb51b34db8ebe15b53f6bae
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/PictureScroll_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c38aca7da54aaa04faa49eb2037ca65a
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Plant_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ead77b627691eac4089be7b493ef7194
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Pothook_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 451e0316c62a07c4795d7638b341944b
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/SmallTable_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ba75e897c87228489e6819e0f8ba58e
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Spotlight_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52845a0b4f3ff52419fa4f5fa7fd27d6
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/TablewareSet_Bowl_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa86c19cc5fe59d4daa1dd0eaac45f2e
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/TablewareSet_Bowl_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 542c7ab9011d7d24d8cab544e0d773d8
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/TablewareSet_Bowl_03_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95f86dd6adf140f4b87e52cc9cb9ebce
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/TablewareSet_Bowl_04_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a4e7b4e5f1ed3c4dbd45027c3780fd8
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/TablewareSet_Chopstick_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a5e0472d4cffdd4f890d3fc4675c26b
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/TablewareSet_Placemat_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29e33d97a01992f41bdbfb51226ee1c0
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/TablewareSet_Plate_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ccd55500f209734e8a09e1790717c03
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Table_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9dfecaa3b78af4479cd559cc2c847ff
+    m_Address: Assets/Scenes/Garden/Art/Props/Prefabs/Zaisu_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3de163bd84bed8247889689aa75493f3
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/BakedPersonsShadows_T_O.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0eed94239710c147944dc06c41373b3
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/CeilingLamp_Cookie.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd7b2f263cb865d4aa3d0bc23d7f6ae5
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Cushions_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd9d14d843529454aa726f6f011ae5a2
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Cushions_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebfa292af70b126479417e300189e57e
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Cushions_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d228d1bc56d3d442b071c47b3d46247
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/DecorationSet_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c79dc170df3567547a1af9907b391045
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/DecorationSet_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cb58cb124aa2c842a1252c8bdd3c5a7
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/DecorationSet_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99ce50318846a7b4c9a561951e0a8f0a
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/LanternMedium_Cookie.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b7c0de6b1243394990288cea2cc1e41
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/LanternSet_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5799eb6a84adec04c9c20553baadcc15
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/LanternSet_01_T_E.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cb435e566a5c464fb40bd23b0d86589
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/LanternSet_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28e918a41b33e984cad22bef64be964b
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/LanternSet_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d129265c903271041b833a14e2d833d7
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/LanternStone_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57a648412465cfd4a92f9f96a7c37025
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/LanternStone_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5efaa4f0a9665c94fa33ae6c5af3107f
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/LanternStone_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3b76c4f53cc20e429e0782fb9f28a49
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/LanternStone_Cookie.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0755bdffceea0184699b822c3eefc287
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Lantern_BigCeiling_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11fde11409682e149a8b46a20ce78bf6
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Lantern_BigCeiling_01_T_E.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe7f9a5b7bd292c4f80a27ac4576a908
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Lantern_BigCeiling_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 050af022b22e1fb4999105a65ee23c03
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Lantern_BigCeiling_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c132916f331fa3146b5e4778f7fd122b
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Paper_Lantern_Cookie.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c1147409a4074544882e79638bff819
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/ParticleSpeck_T_O.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3264036365a529044afb4053173830c2
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/PictureScroll_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aa3f88810b6bab40a2edc42e28dc9fb
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/PictureScroll_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a927b67b261ac5e48a3b07d5f4ee904b
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/PictureScroll_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1de85db5f63dd724eb41389788697aa7
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Plant_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa6ee49f480da594aa4ca6cd54ff7c80
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Plant_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 534414c77d9a8b44a87c27421a8b38c0
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Plant_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a259ef72e9357b043a8640c2334675e0
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Plant_01_T_SS.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbc031a724907ad43ac3a5f383aee7a1
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/PotHook_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec08e8e5c526fc047a94f7d3947d2f18
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/PotHook_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdfaf1cc7165fd94a90a480528e9b151
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/PotHook_02_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02a678253abfed541a33a20b0f85a720
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/SmallTable_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 391978351e1afcb419015705a2ee193b
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/SmallTable_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1adfe0b5b84f61c4a8882bcea536997f
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/SmallTable_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2cea508202a0c643a13be744906f95d
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Spotlight_Cookie.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9c7ba36e36130f48be842c0a9e800da
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/TablewareSet_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e74fd463b482c0046aa55555be5aee72
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/TablewareSet_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10c337cce69d6c746ab3e5313ff22709
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/TablewareSet_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91c6074a2fcb46f4ab0b047b6ec555f8
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Table_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c26a9d2ab717f364b90551d499f51df8
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Table_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 659c692f1b108e54d8a2b62d96f60888
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Table_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17fd888b164c8e94fad9d969008958f4
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/WashiLight_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 367e74dea181dcc48be40ec63a7cd87c
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Zaisu_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ba30b0e4e4f0544da393bb923a6abee
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Zaisu_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b371bbd5579d8d47a07a80b97669ff9
+    m_Address: Assets/Scenes/Garden/Art/Props/Textures/Zaisu_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 167f27657255c3243b72aa3bbb64c964
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/CherryPetalDecal_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 025c092712941c64abd6fff1aba7b0cc
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/CherryPetalParticle_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 415118ae62a10c549ae6946f1d1c7a82
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/GardenSkybox_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d2d0598171ecfb4c8307d44a600a4dc
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/GrassBlend_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98458e5340227cb4eaf5dba31c117709
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/Grass_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3b28ba475c363148891efaefa27873c
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/GravelGrassBlend_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b211314a878314498b256bcb4cf62da
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/Gravels_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f38edd26005c311418a650001f3254c4
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/LandscapeStone_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a962dbbf693684d4f85692b11c0feedf
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/StoneSet_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94f076026d5c9d14795bb7a4215031b1
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/StoneWalkway_01_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19f7ea3cf2ce7d241b710b40982d4144
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/WaterfallRipple_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68d07e15d7359104685b8dee0ccaa8d6
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/WaterFall_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7689f119feae71549a7cddcb562a89fa
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/WaterFoam_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47230054d18ac1f47ba8232c28373d9f
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/WaterPlane_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a40a0b5e18905041a4605702910c64b
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Materials/WaterSurface_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 547bb931e27574d42bd84d6ea0af4147
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/CherryPetal_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cdef5a5efbf11540b711808ffd65d12
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/GardenColliders_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b474b4d4393cfa846a4daf661e242ef2
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Ground_Grass_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4727ce92a2fb2546a2940d795cdb0bf
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Ground_Grass_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f75c3d9a50f1e344b359ecd12678f0a
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Ground_Grass_03_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d02854d1191531f4b8927ea4eb341aa7
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Ground_Grass_04_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 663c6fc593419f248a126184e8954b0f
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Ground_Grass_05_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d57673e10c10d4c4cbbacac090d38d18
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Ground_Grass_06_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a52b4ad72d7dd546ab2600e6204200a
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Ground_Gravels_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1b17c4b8eb4628488472eb8a0460699
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Ground_Gravels_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 851952b7b0e34af42aa380bdb725f93b
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/LandscapeStone_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5824c3b7057b964ea15030cb03ac972
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/LandscapeStone_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d95479f92ead4745bd211d0673789dd
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/RippleVertexColor_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61eda8d6a08330d40bd5023d62efd42d
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/StoneStep_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a62bd76f7db850498f128cc2e7b59d2
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Stone_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8002abbc195e6db4394eaaefe714549d
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Stone_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ced9c5b279e12e54185629eb4355bbe1
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Stone_03_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b3b86a1ed8a3a348ba7d38051e86a83
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Stone_04_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97232cee313bf64428248eb1addc43d5
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Stone_Walkway_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d8174e1e6a615643bf73c471c44d92c
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Stone_Walkway_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8694e03786ace84448d95abe2c203df9
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Stone_Walkway_03_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d220332f0b4c9d2469d2241de94efaf6
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Stone_Walkway_04_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9237a9376684d004fbcdd9c20823360e
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Tower_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4a6fba9a9bf37c449733c19cba4af56
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Tower_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07235c9240f1d4948aa48d09121bddf5
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Tower_03_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 279f07e1631c828459fd4302ebf11fc1
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/Tower_04_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39e680c3f6fbe6d4aa01bfa406810c6b
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/WaterfallEdgePainted_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d1a6a60f1041d64eb2b5939d0bd38c6
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/WaterFallEdgeUpDown_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01580e7b7ab3c764193fd416001c31e9
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/WaterFallVertexColor1208_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e91b08c14275e9f46bd405d10471e343
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Meshes/WaterRiverStraightenUV_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 878307b8eb2e5d247881619bac3e8716
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Dirt_Blend_Decal.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32991606dd9d07c449508b5b00e7535b
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/GardenColliders_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61cdf40c62855704eb70a3331e87bf6b
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Gravel_Blend_Decal.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83de382cbe425a74c819c69bc3319afc
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Ground_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d9b1dc2ab14a364e87acac55e241d8f
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/LandscapeStone_01_Prefab
+      1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2723cea483bf8b44a5f493c99724efa
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/LandscapeStone_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 219931e2e864deb4fbe455ce8da6f5a5
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/StoneStep_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 807dc73446a87e247a646274d8fef440
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Stone_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aff6e08a371fd7444b1b3fd1b169b71a
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Stone_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4f1d8780511d5542bef8c9076a48b47
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Stone_03_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2bf8724d88fa684da8f144326a2e6e0
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Stone_04_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a78c695540415241881a00f4bcb6a71
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Stone_Walkway_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e0dc74544ff0aa4386efb4778c4ec39
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Stone_Walkway_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 510f46f3a0879db4fb039379b00019ac
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Stone_Walkway_03_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f7dc6cd6cd24a14a8f07d2269e8252c
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Stone_Walkway_04_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41be1f5edfdcc5943a3cd8adb6e1b1d8
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/TerrainDecals.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fccba4ed86ad514ca95c91e2657a98f
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Tower_01_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2a54116c6776524e94eb1cd1d2b5ed4
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Tower_02_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e945be391045ae46bcffd66163af7cf
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Tower_03_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c339fa55ed63294383f585b9cd836b1
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Tower_04_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fbba485073901444ad705266fd00a92
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/WaterFallParticles_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c42ca2b913920f94db2c6565ffab2986
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Prefabs/Water_probe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eeda96d9e10e66e42bc8f4d7c6659a32
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/CherryPetalsDecal_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b822baaa6fd9eb43ad1b9ad8c229f71
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/CherryPetalsSheet_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e08faf4c9e76684ab8a1a481f6a3922
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/GardenGround_T_H.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9b44df76e8546f4d807ca8feb8089de
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/Grass_01_T_H.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b4e4b5b426f4db439897a2e39cf9c55
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/Grass_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6da99a742d8f8ad45ae3304180cf8d8f
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/Grass_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea2e14fa369ba674aaa689e56d90fd60
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/Grass_02_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7de8b2dba590a8a44a7b4f1a9de3e473
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/Gravel_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 501ca71af9bc3614bb46064fe220fd14
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/Gravel_01_T_H.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8390bb6d955aa9541879c5a62b0cbec8
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/Gravel_01_T_MAOS.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c431f7390ec4404ba0da007c32bcec7
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/Gravel_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bda1df9a49922646a530064a7f981d4
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/LandscapeStone_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9f81d5f54c76fd45aae1ab784d8b81d
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/LandscapeStone_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36b056a47bc71044681035eaf03d1ce1
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/LandscapeStone_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfb94da85bb15a64b8192667e59c063d
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/MossNoise_T.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8573f73cde0acc42b0bf1fd71f2a233
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/Skybox_T.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c904f5c1f19e8fc42865cf6d70b4fcb6
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/SmokePuff_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec0fffbfc1b9f9f4d82b1328a0fa87ab
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/SmokePuff_T_A.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35f01968508b44c4f8a5baf23b62a92d
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/StoneSet_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 953f02fc59e0a5d4f8ae211a8531883a
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/StoneSet_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34a875fb82942bd4b88b005e6842cb80
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/StoneSet_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 511247e6f2319624b9f36b17c140f4fb
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/StoneWalkway_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: facfa14bd567c904583bd41b3fa67655
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/StoneWalkway_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5bfb97ceb81b244cb97df741fe3953c
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/StoneWalkway_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd444bbd1a5706d44a4dd972e16eeb37
+    m_Address: Assets/Scenes/Garden/Art/Terrain/Textures/Water_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d31fa20db18ce948b45d0df316cbc59
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Vegetation.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf3d150c3e14f2644a6d2a1883cc2103
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Materials/BambooBark_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 808080ea931d0ea4983ec0494354a101
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Materials/CherryTreeBarkRough_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e43d3fdb3d87a7d4db4362068d4fbe7a
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Materials/CherryTreeBark_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f725de1af5c3da645b76dd08fc2bd951
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Materials/CherryTreeKnot_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7037fd9cefc19ed4c8c2202d97d06b40
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Materials/CherryTree_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31ae82d3f43b19040a8c6a3b5c04979e
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Materials/GardenPlants_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4922e37ccf205ff4ea8510e0cd805beb
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Materials/WisteriaBark_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32b93e2a280a17d41847eec47eed33d5
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/BambooGroup_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65686d4c68643e743b7d6461714cb198
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/BambooSeedling_Mat.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efac65901a2cf2149857bb1a5c4fd101
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/CherryShrub_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b44786fa8b5aeb41a594c8a3d45d029
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/CherryShrub_02_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6b4c7ca429475f4399dfbc72b37e1ef
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/CherryTree_01_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b9122d4363dd6649b72aa7521f6f79c
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/HollyShrub_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64b0c16ea0b7f76478fc41b42a2e73dd
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/JapaneseSpurgeCluster_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a032ca1d6a4d1394da442030c90fdd52
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/JapaneseSpurgeSmall_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 151e33adc3eeb184eac4d7d09366ea75
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/LilyPadCluster_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee34f292b510d824491a81c5ea95f8e0
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/LilyPadLeaves_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef2bfb71a723bdf478264e5a38fe7cb1
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/LilyPadSmall_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa4c173660f247446824e3e63c37a6eb
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/LiriopeCluster_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fb98d858effb2c43836fde3ab32aebc
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/LiriopeLeaves_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 966a9b01172c51c45acb3b80f112656b
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/LiriopeSmall_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 213ea7d548d44b14bb52051a8b5339b3
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/WisteriaVineCeiling_Mat.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e867d814504971145b72b1bab1d93f45
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/WisteriaVineGround_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a526f2c720a51a044a6a62d813683a42
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Meshes/WisteriaVineWall_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60e45149c88bd7f4c970f5cfd41ee742
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Bamboo_Group.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce260bf77f626ef4c849d5350b8d125a
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Bamboo_Seedling.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e3d6e281801aed49aa0166ba74a9d31
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Cherry_shrub_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6355e6265f8e00f47ba7234a48809317
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Cherry_shrub_02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8f8af76345602948a0450c5357cd6f4
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Cherry_tree_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd8a490e1a2fc5e4dbf659a9afa6d614
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Holly_Shrub_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ca3da6d3372e42498b5f3442aa6e852
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Japanese_Spurge_Cluster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a0777995f324d146a1779092bfc0983
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Japanese_Spurge_Small.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e7a5f8afc5822d439bae668cd535474
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Lily_Pad_Cluster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 757b1f77dfaa2d148a3dd23311c977a0
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Lily_Pad_Leaves.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ff9714a7e61b5a45a2a2bc029969be9
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Lily_Pad_Small.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fe581a8f9de2cd44bd8e7e464132bcd
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Liriope_Cluster.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16d99a8499ec2624095be4ad38dd291e
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Liriope_Leaves.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e900d338446f0f48ad1b7894b73303c
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Liriope_Small.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fa961f1446bb714b96396d3b5d6d397
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Wisteria_Vine_Ceiling.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3261292d043acd45a9805c81f5124d5
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Wisteria_Vine_Ground.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 926c1be7de4c96f418318c70b257eed6
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Prefabs/Wisteria_Vine_Wall.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81e36553d6e11b746960e0402ae11148
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/BambooBark_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1e6e71fdb070a44ea463c2595a85ba0
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/BambooBark_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1d6c875d8dcb464f9f1aa95caafcf52
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/BambooBark_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 921b6e8a2042dd24e87c97c36857dae5
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryShrub_01_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df4a999aa2fc57640847a272573e065b
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryTreeBarkRough_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07d5ca28f1d80a341ac1e22137b1b64a
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryTreeBarkRough_T_M.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e11e4ad9ef720042941501e6258b769
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryTreeBarkRough_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fdfa9b21083c354f8c8e95444def467
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryTreeBark_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06b5e4a9e7a948641b4da324d2ef8272
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryTreeBark_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91a32b8542cd57049a8b2f342aafffee
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryTreeBark__T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 723ea133befc3674ab3a51c051d0eef5
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryTree_01_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37edd4ab13f89c04d851333edbe084e4
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryTree_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25562d5354a49ca49acb8046ac2d1f35
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryTree_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9e7c02747fdc7c4bb8aeae59304ac73
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/CherryTree_01_T_SS.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cde2857b5d454240a2021dc9f834a18
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/GardenVegetation_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2111929bd214054e858632172427ea8
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/GardenVegetation_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2802c530ebdf6664ba0f8f4c0d827786
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/GardenVegetation_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed22318c6e809b6478fc2ce7cd55d72d
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/GardenVegetation_T_SS.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95aaaa7d1d974c54d9e9b117cdece92a
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/Knot_01_T_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 133db0350f756764b958e23e66522629
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/Knot_01_T_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa5b0a7aa738dab44b21cac8a04a97ba
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/Knot_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 353965a4dd4e9904fa07287e1bf75cd8
+    m_Address: Assets/Scenes/Garden/Art/Vegetation/Textures/WisteriaBark_T_A.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49f8ccc5f20f63c4d9341bc5ead4758b
+    m_Address: Assets/Scenes/Garden/Art/VFX/Materials/Fireflies_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2df63f32f3938914a94261b66cc134bc
+    m_Address: Assets/Scenes/Garden/Art/VFX/Materials/ParticlesBlackDot_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffb19da979c1ca64a907fbcbcf180deb
+    m_Address: Assets/Scenes/Garden/Art/VFX/Materials/ParticlesDust_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d9ec6208b2e2fa4ebfa8e98573a71eb
+    m_Address: Assets/Scenes/Garden/Art/VFX/Materials/SmokeTrail_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0bb4c6cf0293bb4385917b0b0a4124f
+    m_Address: Assets/Scenes/Garden/Art/VFX/Materials/UnlitParticleAlpha_Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8852ec5e0ab47049b992cf13d0322cc
+    m_Address: Assets/Scenes/Garden/Art/VFX/Meshes/Cone_Mesh.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e6865bf75b094e489817b3454b618b7
+    m_Address: Assets/Scenes/Garden/Art/VFX/Prefabs/CherryPetals_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34fe4bc21fe06da45b8d8d2d89260d78
+    m_Address: Assets/Scenes/Garden/Art/VFX/Prefabs/DustSpecks_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95d1715d389622440982df9116268cc4
+    m_Address: Assets/Scenes/Garden/Art/VFX/Prefabs/Fireflies_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cda7812533ba7a748952a7c764155689
+    m_Address: Assets/Scenes/Garden/Art/VFX/Prefabs/FireflyLight_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f00d56175443c844b84020f34a4bdd7f
+    m_Address: Assets/Scenes/Garden/Art/VFX/Prefabs/InsectsLamp_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 585d7d65b67519546ab90c8c8e00c74a
+    m_Address: Assets/Scenes/Garden/Art/VFX/Prefabs/TeapotSteam_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e6b2d137b75f864cb4f544fa1c09bb1
+    m_Address: Assets/Scenes/Garden/Art/VFX/Prefabs/VFX_Enviro_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c49f92360c6e13e4a9f903dbd0749346
+    m_Address: Assets/Scenes/Garden/Art/VFX/Prefabs/VFX_Out_Dust_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1191432d955a12648a7e6f74047133da
+    m_Address: Assets/Scenes/Garden/Art/VFX/Prefabs/VFX_Prefab.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c499845f447c484fb847ad545b279b9
+    m_Address: Assets/Scenes/Garden/GardenScene/LightingData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb6e3533c06b28c4ab2e8c67b7d37160
+    m_Address: Assets/Scenes/Garden/GardenScene/Lightmap-0_comp_dir.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9840c959c70baa041b9679de47ac8262
+    m_Address: Assets/Scenes/Garden/GardenScene/Lightmap-0_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b85a2f4df0f574e4ea3d5171115c035f
+    m_Address: Assets/Scenes/Garden/GardenScene/Lightmap-0_comp_shadowmask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 767a0c9fdacd8234faad9e9f22f861a3
+    m_Address: Assets/Scenes/Garden/GardenScene/Lightmap-1_comp_dir.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 353fcc3a706eec341b9821174e839899
+    m_Address: Assets/Scenes/Garden/GardenScene/Lightmap-1_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52f2378762042a042a3d4f0f1130e3d4
+    m_Address: Assets/Scenes/Garden/GardenScene/Lightmap-1_comp_shadowmask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7ce24e97e8d6e249b68a142048f6c0f
+    m_Address: Assets/Scenes/Garden/GardenScene/Lightmap-2_comp_dir.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98b34922e0ee8ea44a2d4faa62dd7445
+    m_Address: Assets/Scenes/Garden/GardenScene/Lightmap-2_comp_light.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efd5e1478386bf3499791594f7cb28c7
+    m_Address: Assets/Scenes/Garden/GardenScene/Lightmap-2_comp_shadowmask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1087db84c5910774087483ed7b7c7b80
+    m_Address: Assets/Scenes/Garden/GardenScene/ReflectionProbe-0.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98d9ff76453e24f45be4c5847147e9ee
+    m_Address: Assets/Scenes/Garden/GardenScene/ReflectionProbe-1.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c13aadf14d6dac64f86f37be1050b7d0
+    m_Address: Assets/Scenes/Garden/GardenScene/ReflectionProbe-10.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63ff5cf9b6bb09541973249004e9fd6b
+    m_Address: Assets/Scenes/Garden/GardenScene/ReflectionProbe-2.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66670f0510a478f4ebebe9c9e30f4212
+    m_Address: Assets/Scenes/Garden/GardenScene/ReflectionProbe-3.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8c61dde252a1ae44ab5172aac545598
+    m_Address: Assets/Scenes/Garden/GardenScene/ReflectionProbe-4.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 474832940b13e6547916ace39d19b37c
+    m_Address: Assets/Scenes/Garden/GardenScene/ReflectionProbe-5.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2ed1b7e0a1f6bc48b7153d00e2b9961
+    m_Address: Assets/Scenes/Garden/GardenScene/ReflectionProbe-6.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67bddf818ca24174897501b1e8a3a0fa
+    m_Address: Assets/Scenes/Garden/GardenScene/ReflectionProbe-7.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f674fba72510434f89d4ad3f439c274
+    m_Address: Assets/Scenes/Garden/GardenScene/ReflectionProbe-8.exr
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 390334dd76e706a49836ba78298111b8
+    m_Address: 390334dd76e706a49836ba78298111b8
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45234f3456bcbfb46a30710b21d656c2
+    m_Address: 45234f3456bcbfb46a30710b21d656c2
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7ebd41ec252b8849b5fcacc7939876c
+    m_Address: a7ebd41ec252b8849b5fcacc7939876c
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e7a6ac4e7d9ddc448910e7aa8ae1f1e
+    m_Address: 9e7a6ac4e7d9ddc448910e7aa8ae1f1e
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78688701aeff6364a87aa27dbf5ba679
+    m_Address: 78688701aeff6364a87aa27dbf5ba679
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 568cc4ab226d6a34c8ac4b3ebf10d6ec
+    m_Address: Assets/Scenes/Garden/Settings/GardenDraft_LightingSettings.lighting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1db0d893e15b0a941937c30d1ced0cf2
+    m_Address: Assets/Scenes/Garden/Settings/GardenGrass_LightmapParameter.giparams
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d0e070cb804e6a499eb01365e82706d
+    m_Address: Assets/Scenes/Garden/Settings/GardenIndoorVolumeProfile.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7d86e1900f960241820e8349acf3497
+    m_Address: Assets/Scenes/Garden/Settings/GardenOutdoorVolumeProfile.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d0c0e1fb12268e4094fa8a75a88fbd1
+    m_Address: Assets/Scenes/Garden/Settings/GardenProduction_LightingSettings.lighting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73651dfbacf51554b9189bea7987cefb
+    m_Address: Assets/Scenes/Garden/Settings/Garden_LightmapParameters.giparams
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0277fc25ff5df724296df88813ec0a05
+    m_Address: Assets/Scenes/Garden/Settings/ScreenshotsTimelineVolumeProfile.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1c1fc2729f05844ea26d001f99da4c9
+    m_Address: Assets/Scenes/Garden/Shaders/AlphaBlendedColorDecal_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d53ce6608d465bf48bd263fcf05d9df7
+    m_Address: Assets/Scenes/Garden/Shaders/AnamorphicSampler.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bd9eba058e0fb745907168ec0738caf
+    m_Address: Assets/Scenes/Garden/Shaders/Coal_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e6fc6d675c9c42438e84967d7d4c7c6
+    m_Address: Assets/Scenes/Garden/Shaders/FakeVolumetrics_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64bceed5b003d65409c99b255e552b72
+    m_Address: Assets/Scenes/Garden/Shaders/GardenTerrain_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa9f7f2ad42377c4aba6b1b0c6e4e810
+    m_Address: Assets/Scenes/Garden/Shaders/GravelsPixelDepthOffset_Shader.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9d821d0342b4294fbb1c5a4cd670a9b
+    m_Address: Assets/Scenes/Garden/Shaders/Gravels_ShaderGraph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d449417627e0baa42a59737e0d17969a
+    m_Address: Assets/Scenes/Garden/Shaders/HeightBlendedDecal_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b215c3e58f4f47418634a57cc5c6c2e
+    m_Address: Assets/Scenes/Garden/Shaders/MossRock_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd3a4f9c33bd6714bbcb0e79ca7c4cc3
+    m_Address: Assets/Scenes/Garden/Shaders/SmokeTrail_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6527c096d734314c9152a7663eb0837
+    m_Address: Assets/Scenes/Garden/Shaders/TerrainBlendingDecal_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c4cbaedbae058f47af56a8d4937a4d5
+    m_Address: Assets/Scenes/Garden/Shaders/VegetationSSS_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afd8c55393e7d864899737fad8bd9b47
+    m_Address: Assets/Scenes/Garden/Shaders/Vegetation_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f1a5dc54d0179e4cb1c51baa9c330e4
+    m_Address: Assets/Scenes/Garden/Shaders/WashiLight_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbc044629fd33c94dab6dd0427621ab5
+    m_Address: Assets/Scenes/Garden/Shaders/WaterfallRipple_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aeb78ad27d0bba46af16427fd2ffba5
+    m_Address: Assets/Scenes/Garden/Shaders/Waterfall_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3abb043f2572dbc4dacfe84877438211
+    m_Address: Assets/Scenes/Garden/Shaders/WaterSurface_Graph.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3ec5da6cc7c592448b6014b2a83a195
+    m_Address: Assets/Scenes/Garden/Shaders/Subgraphs/AnamorphicMap.shadersubgraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b24606f36641e4fcf93768133d4dfad0
+    m_Address: Assets/Scenes/Garden/Shaders/Subgraphs/SmoothCurve.shadersubgraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24d4ccfd9f1314570b6d66e272e1620b
+    m_Address: Assets/Scenes/Garden/Shaders/Subgraphs/SmoothTriangleWave.shadersubgraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48cd7b341caff49ce81679662afbb323
+    m_Address: Assets/Scenes/Garden/Shaders/Subgraphs/TriangleWave.shadersubgraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5567b9bee87bf495fabd3a75c781ba25
+    m_Address: Assets/Scenes/Garden/Shaders/Subgraphs/VegetationDeformation.shadersubgraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 03b47a6b6aa57244380f1ce440d3973c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3270a1f372c49bd4db19aed8180defcd, type: 2}
+    - {fileID: 11400000, guid: d9d5696618fef3f4291b7da95c0a673f, type: 2}

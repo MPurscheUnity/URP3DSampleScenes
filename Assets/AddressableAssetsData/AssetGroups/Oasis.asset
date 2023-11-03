@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Oasis
+  m_EditorClassIdentifier: 
+  m_GroupName: Oasis
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5ce44ff1b55936948990da390aa42d32
+  m_SerializeEntries:
+  - m_GUID: 9fa2ba603a3424f9bafa4119f837f2bc
+    m_Address: Assets/Scenes/Oasis/OasisScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 03b47a6b6aa57244380f1ce440d3973c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3e8c0a971c6b565468e291f2a04cf9e3, type: 2}
+    - {fileID: 11400000, guid: 929b692aaed76624ca92af09ce1fd1f1, type: 2}
